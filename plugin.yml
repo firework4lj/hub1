@@ -1,0 +1,16 @@
+main: me.EnderSlayerHD.com.Main
+name: Hub
+version: 1.0
+author: EnderSlayerHD, firework4lj
+
+commands:
+  setspawn:
+    description: Set the main spawn.
+  spawn:
+    description: Teleport to the main spawn.
+  gmc:
+    description: Switches your gamemode to creative.
+  gms:
+    description: Switched your gamemode to survival.
+  msg:
+    description: Sends a player a private message.
