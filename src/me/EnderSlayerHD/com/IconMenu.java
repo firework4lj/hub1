@@ -35,7 +35,6 @@ import org.bukkit.plugin.Plugin;
 	    }
 
 		public IconMenu(Main main) {
-			// TODO Auto-generated constructor stub
 		}
 
 		public IconMenu setOption(int position, ItemStack icon, String name, String... info) {

@@ -19,10 +19,10 @@ public class Droppickupitems implements Listener{
 		Player p = e.getPlayer();
 		if(!p.isOp()){
 		e.setCancelled(true);
-		p.sendMessage(ChatColor.BLACK+"["+ChatColor.DARK_RED+"Ender"+ChatColor.BLACK+"]"+ChatColor.RED+"Hey, lets not clutter up the place shall we?");
+		p.sendMessage(ChatColor.BLACK+""+ChatColor.DARK_RED+""+ChatColor.BLACK+""+ChatColor.RED+"§c§lHey, lets not clutter up the place shall we?");
 		}else{
 		e.setCancelled(false);
-		p.sendMessage(ChatColor.BLACK+"["+ChatColor.DARK_RED+"Ender"+ChatColor.BLACK+"]"+ChatColor.RED+"Bypassed item dropping restrictions.");
+		p.sendMessage(ChatColor.BLACK+""+ChatColor.DARK_RED+""+ChatColor.BLACK+""+ChatColor.RED+"§c§lBypassed item dropping restrictions.");
 		}
 	}
 	@EventHandler

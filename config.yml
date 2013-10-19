@@ -1,19 +1,6 @@
 FasterWalkingSpeed: true
 TakeoffSound: true
 CloudEffect: true
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 groups:
-  owner: _EnderSlayerHd_
+  owner: _EnderSlayerHd_, firework4lj
+  vip: OneBillionandOne

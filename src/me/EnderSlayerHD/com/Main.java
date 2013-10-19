@@ -88,7 +88,7 @@ public void onDisable() {
     if (getConfig().getString("FasterWalkingSpeed").equalsIgnoreCase("true"))
       p.setWalkSpeed(0.25F);
   }
-
+  
   @EventHandler
   public void onEntityDamage(EntityDamageEvent e)
   {
