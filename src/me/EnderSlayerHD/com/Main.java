@@ -61,8 +61,8 @@ public void onEnable() {
     getCommand("gms").setExecutor(new com.gmail.firework4lj.commands.Basics(this));
     getCommand("msg").setExecutor(new com.gmail.firework4lj.commands.Basics(this));
     getLogger().info("==============================================");
-    getLogger().info("Hub for DSN has been enabled!");
-    getLogger().info("Owned by EnderDragon network.");
+    getLogger().info("Hub has been enabled!");
+    getLogger().info("Owned by Firework4lj.");
     getLogger().info("Plugin created by firework4lj and _EnderSlayerHD.");
     getLogger().info("==============================================");
     int seconds = 4800;
@@ -76,8 +76,8 @@ public void onEnable() {
 	@Override
 public void onDisable() {
     getLogger().info("==============================================");
-    getLogger().info("Hub for DSN has been disabled!");
-	getLogger().info("Owned by EnderDragon network.");
+    getLogger().info("Hub has been disabled!");
+	getLogger().info("Owned by Firework4lj.");
 	getLogger().info("Plugin created by firework4lj and _EnderSlayerHD.");
 	getLogger().info("==============================================");
 }
