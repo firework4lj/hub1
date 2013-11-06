@@ -18,7 +18,6 @@ public class Basics implements CommandExecutor{
 		this.Main = main;
 	}
 
-	@Override
 	public boolean onCommand(final CommandSender sender, Command cmd, String label, String[] args) {
 		Player p = (Player) sender;
 		if(cmd.getName().equalsIgnoreCase("gmc")){
